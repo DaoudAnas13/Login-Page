@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #fff;
+    color: #fff;
+    font-family: 'Poppings' , 'Arial';
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+.section-login{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0.15)), url(img/back2.jpg);
+    height: 100vh;
+    background-position:center;
+    background-size: cover;
+}
+
+.main-container{
+    
+    height: 100vh;
+    background-position:center;
+    background-size: cover;
+    transform: scale(0.8);
+    border-radius: 40px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ backdrop-filter: blur(3px);
+}
+
+input, label {
+    display:block;
+    border: none;
+    color:#313442;;
+
+}
+
+/*------------------------------------------------------------------------------------
+LEFT
+-------------------------------------------------------------------------------------*/
+
+
+.text-under{
+    text-align: center;
+}
+
+
+
+
+.text-under h2{
+    font-size: 200%;
+    margin-top: 5px;
+    letter-spacing: 2px;
+
+}
+
+.text-under p{
+    margin-top: 3px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.login-box-wel{
+    text-align: justify;
+    margin-top: 90px;
+}
+
+.login-box-wel img{
+    width: 170px;
+    display: block;
+    margin: 0 auto;
+}
+
+.login-form{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.welcome{
+    margin-bottom: 70px;
+}
+
+
+.welcome h2{
+    font-size: 250%;
+    /*color: #f1f1f1;*/
+    color: #313442;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  
+}
+
+.welcome p{
+
+ color: #313442;
+}
+
+.welcome p a{
+    color: #313442;
+    font-weight: 700;
+    text-decoration: none;
+    transition: font-size 0.2s;
+}
+
+.welcome p a:hover,
+.welcome p a:active{
+    font-size: 101%;
+}
+
+.empass label{
+    font-weight: 700;
+    margin-left: 15px;
+    margin-bottom: 3px;
+}
+
+.email-box{
+    margin-bottom: 15px;
+}
+
+
+.empass input{
+    background-color: #313442;
+    color: #fff;
+    width: 320px;
+    padding: 5px;
+    border-radius: 20px;
+    text-indent:12px;
+}
+
+*:focus{outline: none;}
+
+.contact input[type='submit']{
+    background-color: #bc6476;
+    color: #fff;
+    width: 320px;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: 700;
+    padding: 7px 0;
+    transition: background-color 0.2s;
+}
+
+.contact input[type='submit']:hover,
+.contact input[type='submit']:active{
+    background-color: #cb935c;
+   
+}
+
+.forgot h3{
+    text-align: center;
+    width: 320px;
+    margin-bottom: 37px;
+    margin-top: 5px;
+   
+}
+
+.forgot h3 a{
+    text-decoration: none;
+    font-size: 70%;
+    color: #fff;
+    letter-spacing: 1px;
+    transition: font-size 0.2s;
+    
+}
+
+.forgot h3 a:hover,
+.forgot h3 a:active{
+    font-size: 70.5%;
+}
+
+.continue h3 {
+    overflow: hidden;
+    text-align: center;
+    font-size: 90%;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    width: 320px;
+}
+  
+.continue h3:before,
+.continue h3:after {
+    background-color: #fff;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 150px;
+}
+  
+.continue h3:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+  
+.continue h3:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.social ul{
+    list-style: none;
+}
+.social-links li{
+    display: inline-block;
+}
+
+.face-box{
+    float: left;
+}
+
+.google-box{
+    float: right;
+    margin-right: 10px;
+}
+
+.face-box li a,
+.google-box li a{
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.fb,
+.google{
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-right: 2px;
+}
+
+
+.f:hover,
+.f:active{
+    color: #1877f2;
+}
+
+.g:hover,
+.g:active{
+    color: #34a853;
+}
+
